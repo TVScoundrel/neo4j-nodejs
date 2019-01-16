@@ -1,7 +1,7 @@
 {
   "name": "neo4j-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Abstraction layer for Neo4j",
   "main": "app.js",
   "scripts": {
     "test": "mocha **/*.test.js"
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/TVScoundrel/neo4j-nodejs/issues"
   },
-  "homepage": "https://github.com/TVScoundrel/neo4j-nodejs#readme"
+  "homepage": "https://github.com/TVScoundrel/neo4j-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "neo4j-driver": "^1.7.2"
+  },
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.1"
+  }
 }
