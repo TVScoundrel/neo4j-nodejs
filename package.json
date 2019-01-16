@@ -1,0 +1,19 @@
+{
+  "name": "neo4j-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TVScoundrel/neo4j-nodejs.git"
+  },
+  "author": "Tom Van Schoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TVScoundrel/neo4j-nodejs/issues"
+  },
+  "homepage": "https://github.com/TVScoundrel/neo4j-nodejs#readme"
+}
