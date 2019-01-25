@@ -3,10 +3,6 @@ const neo4j = require('neo4j-driver').v1
 const logger = require('./logger/logger')
 const config = require('./config/config')
 
-logger.debug(config.get('neo4j_uri'))
-logger.debug(config.get('neo4j_user'))
-logger.debug(config.get('neo4j_password'))
-
 const driver = neo4j.driver(
   config.get('neo4j_uri'),
   neo4j.auth.basic(config.get('neo4j_user'), config.get('neo4j_password'))
