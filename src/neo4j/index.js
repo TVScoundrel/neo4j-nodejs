@@ -23,7 +23,7 @@ module.exports = class Neo4j {
    * @returns {Model}
    */
   model(name, schema) {
-    const model = new Model()
+    const model = new Model(this, name, schema)
     this.models.set(name, model)
     return this.models.get(name)
   }
